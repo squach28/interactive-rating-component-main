@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-family: Overpass;
+  }
+
+  #main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Overpass;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  #rating-container {
+    display: flex;
+    width: 25em;
+    height: 25em;
+    background: linear-gradient(hsl(218, 25%, 13%), #1F252F);
+    color: white;
+    border-radius: 0.8em;
+
+  }
+
+  .content {
+    display: flex;
+    margin: 1.5em;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .star {
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    padding: 0.8em;
+  }
+
+  .rating-header {
+    font-size: 1.8em;
+  }
+
+  .description-container {
+    color: hsl(217, 12%, 63%);
+    line-height: 1.4em;
+  }
+
+  .rating-dots-container {
+    display: flex;
+    flex-direction: row;
+    width: 22em;
+    justify-content: space-between;
+  }
+
+  .rating-dot {
+    display: flex;
+    justify-content: center;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(213, 19%, 18%);
+    padding: 1em;
+    cursor: pointer;
+  }
+
+  .rating-dot:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+  }
+
+  .rating-dot-selected {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+  }
+
+  #submit-button {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+    font-family: Overpass;
+    padding: 1.2em;
+    border-radius: 2em;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  #submit-button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+  }
+
+  #submitted-content {
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    height: 25em;
+    background: linear-gradient(hsl(218, 25%, 13%), #1F252F);
+    color: white;
+    border-radius: 0.8em;
+    align-items: center;
+    text-align: center;
+    font-family: Overpass;
+    gap: 3em;
+  }
+
+  .thank-you-img {
+    width: 8em;
+    height: 6em;
+    margin-top: 2em;
+  }
+
+  .selected-container {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    padding: 0.5em 1em ;
+    border-radius: 1.5em;
+  }
+
+  .thank-you-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+  }
+
+  .thank-you-header {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  .thank-you-description {
+    font-size: 0.9em;
+    color: hsl(217, 12%, 63%);
+    margin: 0 2.5em;
+  }
+  
